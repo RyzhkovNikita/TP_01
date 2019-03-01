@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         textview = findViewById(R.id.tv);
         textview.setText("0");
+        textview.setTextSize(50);
         button = findViewById(R.id.button);
         openButton = findViewById(R.id.button2);
         button.setOnClickListener(new View.OnClickListener() {
