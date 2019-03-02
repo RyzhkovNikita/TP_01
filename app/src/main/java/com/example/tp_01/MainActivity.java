@@ -7,8 +7,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 public class MainActivity extends AppCompatActivity {
 
     public static final String EXTRA_INT = "int";
@@ -20,8 +18,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         textview = findViewById(R.id.tv);
         textview.setText("0");
-        textview.setTextSize(50);
-        textview.setPadding(5,5,5,5);
         button = findViewById(R.id.button);
         openButton = findViewById(R.id.button2);
         button.setOnClickListener(new View.OnClickListener() {
